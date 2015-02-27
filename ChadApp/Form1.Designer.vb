@@ -23,11 +23,9 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.CurrentBalance = New System.Windows.Forms.TextBox()
-        Me.Deposit = New System.Windows.Forms.TextBox()
+        Me.InputValue = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Withdrawl = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.InputText = New System.Windows.Forms.Label()
         Me.NewBalance = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Submit = New System.Windows.Forms.Button()
@@ -42,12 +40,12 @@ Partial Class Form1
         Me.CurrentBalance.Size = New System.Drawing.Size(100, 20)
         Me.CurrentBalance.TabIndex = 0
         '
-        'Deposit
+        'InputValue
         '
-        Me.Deposit.Location = New System.Drawing.Point(43, 209)
-        Me.Deposit.Name = "Deposit"
-        Me.Deposit.Size = New System.Drawing.Size(100, 20)
-        Me.Deposit.TabIndex = 1
+        Me.InputValue.Location = New System.Drawing.Point(43, 209)
+        Me.InputValue.Name = "InputValue"
+        Me.InputValue.Size = New System.Drawing.Size(100, 20)
+        Me.InputValue.TabIndex = 1
         '
         'Label1
         '
@@ -58,30 +56,14 @@ Partial Class Form1
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Current Balance"
         '
-        'Label2
+        'InputText
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(43, 190)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(43, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Deposit"
-        '
-        'Withdrawl
-        '
-        Me.Withdrawl.Location = New System.Drawing.Point(43, 254)
-        Me.Withdrawl.Name = "Withdrawl"
-        Me.Withdrawl.Size = New System.Drawing.Size(100, 20)
-        Me.Withdrawl.TabIndex = 4
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(43, 236)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(54, 13)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Withdrawl"
+        Me.InputText.AutoSize = True
+        Me.InputText.Location = New System.Drawing.Point(43, 190)
+        Me.InputText.Name = "InputText"
+        Me.InputText.Size = New System.Drawing.Size(43, 13)
+        Me.InputText.TabIndex = 3
+        Me.InputText.Text = "Deposit"
         '
         'NewBalance
         '
@@ -141,24 +123,20 @@ Partial Class Form1
         Me.Controls.Add(Me.Submit)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.NewBalance)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Withdrawl)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.InputText)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Deposit)
+        Me.Controls.Add(Me.InputValue)
         Me.Controls.Add(Me.CurrentBalance)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.ResumeLayout(false)
-        Me.PerformLayout
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
 
-End Sub
+    End Sub
     Friend WithEvents CurrentBalance As System.Windows.Forms.TextBox
-    Friend WithEvents Deposit As System.Windows.Forms.TextBox
+    Friend WithEvents InputValue As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Withdrawl As System.Windows.Forms.TextBox
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents InputText As System.Windows.Forms.Label
     Friend WithEvents NewBalance As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Submit As System.Windows.Forms.Button

@@ -8,3 +8,13 @@ C:\Users\wit0230621\Desktop\VS_Chad\ChadApp\ChadApp\obj\Debug\ChadApp.vbproj.Gen
 C:\Users\wit0230621\Desktop\VS_Chad\ChadApp\ChadApp\obj\Debug\ChadApp.exe
 C:\Users\wit0230621\Desktop\VS_Chad\ChadApp\ChadApp\obj\Debug\ChadApp.xml
 C:\Users\wit0230621\Desktop\VS_Chad\ChadApp\ChadApp\obj\Debug\ChadApp.pdb
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\bin\Debug\ChadApp.exe.config
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\obj\Debug\ChadApp.exe
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\obj\Debug\ChadApp.xml
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\obj\Debug\ChadApp.pdb
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\bin\Debug\ChadApp.exe
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\bin\Debug\ChadApp.pdb
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\bin\Debug\ChadApp.xml
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\obj\Debug\ChadApp.Form1.resources
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\obj\Debug\ChadApp.Resources.resources
+C:\Users\wit0230621\Documents\GitHub\Assignment_01\ChadApp\obj\Debug\ChadApp.vbproj.GenerateResource.Cache
